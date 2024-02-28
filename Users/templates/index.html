@@ -1,13 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>HOME</title>
-    <link rel="stylesheet" href="../../static/css/styles.css">
-</head>
-<body>
+{% extends 'base.html' %}
+
+{% block title %}
+<h2>This is my Index page</h2>
+{% endblock %}
+
+{% block content %}
 <h2>This is my home page</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus adipisci, consectetur culpa cumque dicta perferendis perspiciatis porro quisquam totam voluptatem? A accusamus, architecto error explicabo impedit ipsum necessitatibus odio sequi?</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Accusamus adipisci, consectetur culpa cumque dicta perferendis perspiciatis porro quisquam totam voluptatem?
+    A accusamus, architecto error explicabo impedit ipsum necessitatibus odio sequi?</p>
 <h4>Please visit us again</h4>
 <div class="table-section">
 <table  border="2" cellpadding="5" cellspacing="5" width="350" bgcolor="#d2691e">
@@ -40,10 +41,5 @@
         <td>Bravine</td>
         <td>Isaac</td>
         <td>Kampala</td>
-    </tr>
-</table>
-</div>
 
-
-</body>
-</html>
+{% endblock %}

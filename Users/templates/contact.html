@@ -1,10 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% extends 'base.html' %}
+
+{% block title %}
+<h4>This is the Contact page</h4>
+Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+Assumenda eaque ex inventore minima minus officia quaerat sit voluptatibus.
+Deserunt dolore eligendi eum perferendis provident quidem reiciendis suscipit.
+At, deleniti voluptatum?
+{% endblock %}
+
+
+{% block content %}
+<h2>WELCOME</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus adipisci, consectetur culpa cumque dicta perferendis perspiciatis porro quisquam totam voluptatem? A accusamus, architecto error explicabo impedit ipsum necessitatibus odio sequi?</p>
+<h4>Please visit us again</h4>
+<div class="table-section">
 <table  border="2" cellpadding="5" cellspacing="5" width="350" bgcolor="#d2691e">
     <tr>
         <th>FIRST NAME</th>
@@ -35,7 +44,4 @@
         <td>Bravine</td>
         <td>Isaac</td>
         <td>Kampala</td>
-    </tr>
-</table>
-</body>
-</html>
+{% endblock %}
